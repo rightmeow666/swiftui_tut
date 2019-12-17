@@ -23,6 +23,10 @@ struct LandmarkList: View {
 
 struct LandmarkList_Previews: PreviewProvider {
   static var previews: some View {
-    LandmarkList()
+    Group {
+      LandmarkList()
+        .previewDevice(PreviewDevice(rawValue: "iPhone XS Max"))
+        .previewDisplayName("iPhone XS Max")
+    }
   }
 }
