@@ -1,0 +1,12 @@
+{
+    "aps": {
+        "alert": {
+            "body": "Test message",
+            "title": "Optional title",
+        },
+        "category": "LandmarkNear",
+        "thread-id": "5280"
+    },
+    
+    "landmarkIndex" : 1
+}
